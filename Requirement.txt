@@ -1,6 +1,6 @@
 Streamlit
 Sys
-Streamlit Option Menu
+Streamlit Option Menu import option_menu
 Pillow
 NumPy
 OpenCV
