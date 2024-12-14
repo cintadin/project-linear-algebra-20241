@@ -1,0 +1,7 @@
+Streamlit
+Sys
+Streamlit-option-menu
+Pillow
+NumPy
+OpenCV
+Base64
