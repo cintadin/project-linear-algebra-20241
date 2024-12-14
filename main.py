@@ -1,5 +1,4 @@
 import streamlit as st
-from streamlit_option_menu import option_menu
 from PIL import Image, ImageEnhance
 import numpy as np
 import cv2
@@ -61,12 +60,12 @@ def set_background_image(image_path):
 background_image_path = r"C:\\Users\\Lenovo\\OneDrive\\Gambar\\Presiden t1.jpg"
 set_background_image(background_image_path)
 
-# Navigasi sidebar
+# Navigasi sidebar menggunakan selectbox
 with st.sidebar:
-    select = option_menu(
+    select = st.selectbox(
         'Project Final Exam',
         ['Introduction', 'Application'],
-        default_index=0
+        index=0  # Default index
     )
 
 if select == 'Introduction':
