@@ -5,3 +5,4 @@ Pillow
 NumPy
 OpenCV
 Base64
+opencv-python-headless
